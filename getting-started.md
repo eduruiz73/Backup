@@ -39,9 +39,10 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 ## Installing the {{site.data.keyword.backup_notm}} agent
 {: #installagentgettingstarted}
 
-{{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
+{{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems. Minimum supported versions are 8.32 for Windows and 8.50 for Linux.
 
 **Windows**
+ - Windows Server 2019 (WebCC not supported, must use CentralControl)
  - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
@@ -49,13 +50,14 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Windows Server 2008
 
 **Linux&reg;**
+ - CentOS 8.x (BMR backups are not supported)
  - CentOS 7.x
  - CentOS 6.x
+ - Debian GNU/Linux&reg; 10.x
  - Debian GNU/Linux&reg; 9.x
  - Debian GNU/Linux&reg; 8.x
- - Debian GNU/Linux&reg; 7.x
+ - RHEL 8.x (BMR backups are not supported)
  - RHEL 7.x
- - RHEL 6.x
  - Ubuntu Linux&reg; 16.04
  - Ubuntu Linux&reg; 14.04
 
